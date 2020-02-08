@@ -16,8 +16,6 @@ final class MySelf {
     public static MySelf getInstance(){
         return me;
     }
-
     public int getAge() { return age; }
     public void setAge(int x) { age = x; }
-
 }
