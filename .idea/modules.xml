@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DesignMode.iml" filepath="$PROJECT_DIR$/DesignMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FactoryPattern/FactoryPattern.iml" filepath="$PROJECT_DIR$/FactoryPattern/FactoryPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SignletonPattern/SignletonPattern.iml" filepath="$PROJECT_DIR$/SignletonPattern/SignletonPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FactoryPattern/SimpleFactoryPattern.iml" filepath="$PROJECT_DIR$/FactoryPattern/SimpleFactoryPattern.iml" />
+    </modules>
+  </component>
+</project>
