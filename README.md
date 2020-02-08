@@ -11,4 +11,4 @@ And, welcome to [my personal blog](http://9xigua.xyz/)
 ### [log]
 Date   | jobs   | toDo
 -------| ------ | -----
-20.02.08 | 1. init this project<br> 2. update FactoryPattern<br> 3.update SingletonPattern | learn ListenerPattern
+20.02.08 | 1. init this project<br> 2. update FactoryPattern<br> 3.update SingletonPattern | learn ObserverPattern
