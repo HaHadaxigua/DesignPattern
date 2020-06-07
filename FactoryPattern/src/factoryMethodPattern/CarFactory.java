@@ -1,6 +1,6 @@
 package factoryMethodPattern;
 
-public class CarFactory implements VehicleFactory{
+public class CarFactory implements VehicleFactory {
     public CarFactory() {
         System.out.println("car Factory");
     }

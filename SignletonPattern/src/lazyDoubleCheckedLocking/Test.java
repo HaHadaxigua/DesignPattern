@@ -1,18 +1,19 @@
 package lazyDoubleCheckedLocking;
 
-public class Test implements Runnable{
+public class Test implements Runnable {
 
     Object obj = null;
+
     @Override
     public void run() {
-        for (int i=0; i<5; i++){
+        for (int i = 0; i < 5; i++) {
             try {
                 Thread.sleep(50);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
             obj = Singleton.getInstance();
-            System.out.println(Thread.currentThread()+"no."+i+"----"+obj.hashCode());
+            System.out.println(Thread.currentThread() + "no." + i + "----" + obj.hashCode());
         }
     }
 

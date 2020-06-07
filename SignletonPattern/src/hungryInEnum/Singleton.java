@@ -7,12 +7,16 @@ public enum Singleton {
 
     private String name;
     private int age;
-    private Singleton(){}
-    private Singleton(String name,int age){
+
+    private Singleton() {
+    }
+
+    private Singleton(String name, int age) {
         this.name = name;
         this.age = age;
     }
-    public void getInstance(){
+
+    public void getInstance() {
         System.out.println("枚举方式实现单例");
     }
 }

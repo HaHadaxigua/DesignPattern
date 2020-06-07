@@ -6,14 +6,14 @@ package simpleFactoryPattern;
  * 可以通过反射来修改这一个弊端
  */
 public class ShapeSimpleFactory {
-    public static Shape getShape(String ShapeType){
-        if(null == ShapeType){
+    public static Shape getShape(String ShapeType) {
+        if (null == ShapeType) {
             return null;
-        }else if("SQUARE".equalsIgnoreCase(ShapeType)){
+        } else if ("SQUARE".equalsIgnoreCase(ShapeType)) {
             return new Square();
-        }else if("RECTANGLE".equalsIgnoreCase(ShapeType)){
+        } else if ("RECTANGLE".equalsIgnoreCase(ShapeType)) {
             return new Rectangle();
-        }else if("CIRCLE".equalsIgnoreCase(ShapeType)){
+        } else if ("CIRCLE".equalsIgnoreCase(ShapeType)) {
             return new Circle();
         }
         return null;

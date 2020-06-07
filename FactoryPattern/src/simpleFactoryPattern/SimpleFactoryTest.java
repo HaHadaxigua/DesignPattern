@@ -5,7 +5,7 @@ public class SimpleFactoryTest {
         factoryTest2();
     }
 
-    private static void factoryTest1(){
+    private static void factoryTest1() {
         Shape circle = ShapeSimpleFactory.getShape("circle");
         circle.draw();
         Shape rectangle = ShapeSimpleFactory.getShape("rectangle");
@@ -17,7 +17,7 @@ public class SimpleFactoryTest {
     /**
      * 这种方法,就不需要再去修改工厂类了
      */
-    private static void factoryTest2(){
+    private static void factoryTest2() {
         Circle circle = (Circle) SimpleSimpleFactoryWithReflect.getClass(Circle.class);
         circle.draw();
         MyShape myShape = (MyShape) SimpleSimpleFactoryWithReflect.getClass(MyShape.class);

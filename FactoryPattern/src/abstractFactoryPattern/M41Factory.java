@@ -1,6 +1,6 @@
 package abstractFactoryPattern;
 
-public class M41Factory implements ArmsFactory{
+public class M41Factory implements ArmsFactory {
     public M41Factory() {
         System.out.println("Constructor: you create a M4-factory");
     }

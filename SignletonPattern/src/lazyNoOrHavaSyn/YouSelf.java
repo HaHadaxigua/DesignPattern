@@ -3,7 +3,10 @@ package lazyNoOrHavaSyn;
 public class YouSelf {
     private static YouSelf youSelf;
     private int age;
-    private YouSelf(){}
+
+    private YouSelf() {
+    }
+
     private YouSelf(int age) {
         this.age = age;
     }
@@ -16,9 +19,9 @@ public class YouSelf {
         this.age = age;
     }
 
-    public static synchronized YouSelf getInstance(){
-        if(youSelf == null)
-           youSelf = new YouSelf();
+    public static synchronized YouSelf getInstance() {
+        if (youSelf == null)
+            youSelf = new YouSelf();
         return youSelf;
     }
 }

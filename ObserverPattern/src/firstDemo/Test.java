@@ -4,8 +4,9 @@ public class Test {
     /**
      * we just set the subject's info,
      * and observer make action
-     *
+     * <p>
      * because, observer is listen the interface setVal in Subject's
+     *
      * @param args
      */
     public static void main(String[] args) {
